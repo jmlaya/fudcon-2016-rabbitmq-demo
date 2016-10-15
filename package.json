@@ -1,0 +1,27 @@
+{
+  "name": "demo-rabbitmq",
+  "version": "1.0.0",
+  "description": "Proyecto demostrativo del uso de RabbitMQ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jmlaya/fudcon-2016-rabbitmq-demo.git"
+  },
+  "keywords": [
+    "RabbitMQ",
+    "demo"
+  ],
+  "author": "@jmlaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmlaya/fudcon-2016-rabbitmq-demo/issues"
+  },
+  "homepage": "https://github.com/jmlaya/fudcon-2016-rabbitmq-demo#readme",
+  "dependencies": {
+    "amqplib": "0.4.2",
+    "colors": "1.1.2"
+  }
+}
