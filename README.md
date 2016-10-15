@@ -1,5 +1,7 @@
 # RabbitMQ Demo - Fudcon Puno 2016
 
+## Instalation
+
 1. Install [Node.js](http://nodejs.org)
 
 2. Install [Docker](https://docs.docker.com/engine/installation/)
@@ -16,3 +18,7 @@
   ```bash
   sudo docker-compose up -d rabbit
   ```
+
+## Presentation slides
+
+https://docs.google.com/presentation/d/1fRt3EMc7XNqmZN63pM_9xi8XP6Jd1RF6WZ_FGUdGWCI/edit?usp=sharing
