@@ -4,7 +4,7 @@ var amqp = require("amqplib/callback_api");
 const user = "guest",
       pass = "guest",
       connection = `amqp://${user}:${pass}@localhost`,
-      delay = 500;
+      delay = 100;
 
 amqp.connect(connection, (err, conn) => {
   conn.createChannel((err, ch) => {
